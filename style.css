@@ -13,7 +13,7 @@ body
 {
     position: relative;
     display: block;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     overflow: hidden;
 }
@@ -23,11 +23,12 @@ body
     position: relative;
     display: flex;
     z-index: -100;
+  width:100vw;
 }
 .bubbles span
 {
     position: relative;
-    width: 50px;
+    width: 5vw;
     height: 100px;
     background: #c19129;
     margin: 0 4px;
